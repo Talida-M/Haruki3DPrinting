@@ -1,4 +1,7 @@
 # Haruka3DPrinting
+
+# Demo Aici:
+
 ![logo](https://user-images.githubusercontent.com/75331740/217664821-7811e6f0-772c-4732-9b84-7364ddc6ce25.png)
 
 Haruki 3D Printing este un magazin online cu obiecte printate 3D. In cadrul aplicatiei userul are acces in a vizualiza mai multe categorii de produse (standard, produse cu licheni, produse personalizate, produse pentru caini si produse custom). Un produs poate fi achizitionat doar daca clientul este logat. 
