@@ -41,12 +41,19 @@ Firebase sau orice alt mediu de backend: backendul este cel creat cu .NET si ada
 <details>
 <summary><i><b>Poze Aici:</b></i></summary>
 ![8](https://user-images.githubusercontent.com/75331740/217669932-2ddc9b1e-e583-4209-b602-2bfa68b023fc.jpeg)
+	
 ![9](https://user-images.githubusercontent.com/75331740/217669945-568490e4-0efd-4c20-b369-ed1a0cb42715.jpeg)
+	
 ![7](https://user-images.githubusercontent.com/75331740/217669956-811afacc-7744-4db0-b8e8-cdf839dc7c02.jpeg)
+	
 ![5](https://user-images.githubusercontent.com/75331740/217669987-46bcffa8-86ee-4d06-80e7-d88ca15c961b.jpeg)
+	
 ![4](https://user-images.githubusercontent.com/75331740/217670002-5c331a45-8569-4b58-9345-f42a081f2c35.jpeg)
+	
 ![3](https://user-images.githubusercontent.com/75331740/217670007-a3b6aeae-30a3-49e5-8da4-3f4af3d90714.jpeg)
+	
 ![2](https://user-images.githubusercontent.com/75331740/217670015-cda46b08-bfd0-4d73-8c79-81e017e510cd.jpeg)
+	
 ![1](https://user-images.githubusercontent.com/75331740/217670019-74ce593b-df6a-4783-912b-0c644f020180.jpg)
 
 
