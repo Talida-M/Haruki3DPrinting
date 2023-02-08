@@ -10,12 +10,16 @@ Aplicatia poate fi utilizata si de angajati (executant/proiectant) pentru a gest
 
 Cerinte:
 * Sa aiba mai multe rute:
+
 	> ruta principala este ['home'] care ne duce la pagina principala unde se poate vedea logo-ul si produsele in functie de categorie. Din home avem acces spre mai multe pagini in functie de rol. 
+	
         > In ['cont'] avem componentele de login si register. In navbar avem acces atat la login cat si register dar poti accesa register din pagina de login si invers. 
+	
 	> In ['client'] avem 2 componente: pagina de cont client si cosul de cumparaturi.
+	
 	> In ['gestiune'] avem mai multe componente precum comenzi,  gestiune, imprimante, executant si proiectant. De asemenea avem o pagina in care pentru a fi siguri ca cel care acceseaza pagina de angajati este chiar un angajat acesta trebuie sa introduca o parola cunsocuta din momentul angajarii(salvata in baza de date sub forma criptata). In functie de rol avem pagina de executant care are acces la paginile comenzi si detalii imprimante si proiectant care are acces doar la pagina de comenzi. 
 
-* Sa se foloseasca componente reutilizabile: componente reutilizabila folosite sunt navbarul (NavbarComponent) si componenta de produse (ProduseComponent) care se foloseste o data pentru fiecare carte din librarie
+* Sa se foloseasca componente reutilizabile: componente reutilizabile folosite sunt navbarul (NavbarComponent) si componenta de produse (ProduseComponent).
 
 * Sa se comunice intre componente: se folosesc toate cele 3 tipuri de comunicare
 
