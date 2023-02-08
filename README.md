@@ -21,8 +21,7 @@ Cerinte:
       > @Input si @Output pentru comunicarea dintre componenta parinte si componenta copil (si invers): este folosita pentru a lega componenta copil produs de componenta parinte home.
 
 <details>
-<summary> Rute publice si private: ca ruta publica avem pagina de home unde toti au accessi paginile de login/register. Cele private sunt cele in care utilizatorul nu poate intra daca nu are cont, pentru asta este folosit un guard care afiseaza un alert si ne redirectioneaza la pagina de login (poza mai jos).
- </summary>
+* Rute publice si private: ca ruta publica avem pagina de home unde toti au accessi paginile de login/register. Cele private sunt cele in care utilizatorul nu poate intra daca nu are cont, pentru asta este folosit un guard care afiseaza un alert si ne redirectioneaza la pagina de login (poza mai jos).
  
  ![guard](https://user-images.githubusercontent.com/75331740/217665663-2bf47395-8612-43b8-9a4c-1d0cf2bda1cf.jpg)
 
