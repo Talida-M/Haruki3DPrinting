@@ -23,9 +23,9 @@ Cerinte:
 
 * Sa se comunice intre componente: se folosesc toate cele 3 tipuri de comunicare
 
-      > Comunicarea prin serviciu (intre componente fara nicio legatura copil-parinte): este des folosita pentru a lega componente precum login register de homeComponent. De asemnea pentru a te redirectiona comenzide pagina detalii comanda sau de a te redirectiona dupa plasarea unei comenzi inapoi la home.
+      > Comunicarea prin serviciu (intre componente fara nicio legatura copil-parinte): este des folosita pentru a lega componente precum login/register de homeComponent. De asemnea este folosita pentru a te redirectiona de la pagina de comenzi la pagina detalii comanda sau  redirectiona dupa plasarea unei comenzi inapoi la home.
 
-      > @Input si @Output pentru comunicarea dintre componenta parinte si componenta copil (si invers): este folosita pentru a lega componenta copil produs de componenta parinte home.
+      > @Input si @Output pentru comunicarea dintre componenta parinte si componenta copil (si invers): este folosita pentru a lega componenta copil ProdusComponent de componenta parinte HomeComponent.
 
 
 * Rute publice si private: ca ruta publica avem pagina de home unde toti au accessi paginile de login/register. Cele private sunt cele in care utilizatorul nu poate intra daca nu are cont, pentru asta este folosit un guard care afiseaza un alert si ne redirectioneaza la pagina de login (poza mai jos).
@@ -35,11 +35,16 @@ Cerinte:
  
 
 * Sa fie cel putin o pagina cu un form (login/register)
-form login
-form register
-mini form schimbare numar de telefon
-mini form pagina angajatilor
-Firebase sau orice alt mediu de backend: backendul este cel creat cu .NET si adaugat in repo.
+
+> form login
+
+> form register
+
+> mini form schimbare numar de telefon
+
+> mini form pagina angajatilor
+
+* Firebase sau orice alt mediu de backend: backendul este  creat cu .NET si adaugat in repo.
 
 
 <details>
