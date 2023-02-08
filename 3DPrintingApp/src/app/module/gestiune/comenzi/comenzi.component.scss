@@ -1,0 +1,61 @@
+table {
+    width: 100%;
+    margin-top: 30px;
+    color: #f09;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+   
+  }
+  *, ::after, ::before {
+    color: rgb(29, 0, 36);
+}
+  
+.mat-table thead, .mat-table tbody, .mat-table tfoot, mat-header-row, mat-row, mat-footer-row, [mat-header-row], [mat-row], [mat-footer-row], .mat-table-sticky {
+  /* background: inherit; */
+  background: #c9badc;
+}
+  #out {
+    top:125px;
+    background-color: #654d98;
+    font-size: 16px;
+  }
+  
+  
+  .container{
+    color: white;
+    position: relative;
+    
+    display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around; 
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+       
+  
+  //mat-input focused color
+  ::ng-deep .mat-form-field-appearance-outline.mat-focused .mat-form-field-outline-thick {
+    color: rgb(75, 33, 85);
+  }
+  
+  // mat-input carent color
+  ::ng-deep .mat-input-element {
+    caret-color: rgb(113, 80, 112);
+  }
+  
+  // mat-label focused style
+  ::ng-deep .mat-form-field.mat-focused .mat-form-field-label {
+    color: rgb(109, 81, 149);
+  }
+  
+    .form{
+        .mat-form-field{
+             width: 100%;   
+        }  
+     
+    }
+  
+  }

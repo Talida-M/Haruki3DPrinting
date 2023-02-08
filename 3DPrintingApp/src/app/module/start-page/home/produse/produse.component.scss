@@ -1,0 +1,105 @@
+.categorie{
+    position: relative;
+    top: 10px;
+    text-align: center;
+    color: #550873;
+    font-size: 20px;
+    font-weight: bold;
+}
+table {
+    width: 100%;
+  }
+  
+  th.mat-sort-header-sorted {
+    color: black;}
+  
+#prod{
+    position: relative;
+    top: 10px;
+    
+    
+}
+
+  
+  img {
+    width: 100%;
+    height: 250px;
+  }
+  
+ 
+  .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+  }
+  
+  .card {
+    width: 300px;
+    height: 600px;
+    background: linear-gradient(135deg, #8c4194 0%, #7756b4 100%);
+    font-family: sans-serif;
+    box-shadow: 0 0 20px #00000070;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    margin: 5rem auto;
+    transition: transform 0.3s;
+  }
+  
+  .card:hover {
+    transform: translateY(-0.5rem) scale(1.03);
+  }
+  
+  .top-section {
+    position: relative;
+  }
+  
+  .name {
+    font-size: 20px;
+    color: #fff;
+    line-height: 1;
+    opacity: 0.8;
+  }
+  
+  .name span {
+    background: #333;
+  }
+  
+  .name span:last-of-type {
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  
+  .info-section {
+    color: #fff;
+    opacity: 0.8;
+  }
+  
+ 
+  
+  p {
+    text-align: justify;
+    font-size: 14px;
+  }
+  
+  .social {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .social a {
+    font-size: 20px;
+    color: linear-gradient(135deg, #ff57b9 0%, #a704fd 100%);
+    transition: all 0.4s;
+  }
+  
+  .social a:hover {
+    color: #fff;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+  }
+  

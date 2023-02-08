@@ -1,0 +1,38 @@
+body {
+    background-color: #f2ecec
+  }
+  .titlu {
+    position: relative;
+    top: 10px;
+  }
+.titlu img {
+    float: left;
+    width: 70px;
+}
+  
+  .titlu h1 {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    color: #550873;
+    font-weight: bold;
+    font-size: 40px;
+  }
+
+
+
+  .container a{
+    position: relative;
+    top: 15px;
+    color: #550873;
+    font-weight: bold;
+    font-size: 18px;
+}
+.container a:visited{
+  color: #550873;
+  background-color:rgb(249, 254, 254);
+}
+.container a:hover{
+  color: rgb(206, 111, 221);
+  background-color:rgb(246, 193, 223);
+}

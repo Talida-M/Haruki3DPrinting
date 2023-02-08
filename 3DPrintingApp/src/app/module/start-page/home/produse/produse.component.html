@@ -1,0 +1,50 @@
+<div class="categorie">
+    <h1>Produse</h1>
+    <p>Alege categoria pentru a putea vedea produsele.</p>
+    
+
+    <div id="lista-categ"></div> 
+    <div id="allProd"> </div> 
+      <div class="landing">
+        <div class="container">
+          <div class="card" *ngFor="let prod of produse; let i = index"  matSort (matSortChange)="announceSortChange($event)" >
+            <div class="top-section">
+              <img
+                src="../../../../../assets/img/{{imgs}}{{i + 1}}.jpg"
+                alt=""
+              />
+              
+            </div>
+            <div class="info-section">
+              <h1 class="name">
+                <span>{{prod.id}}. {{prod.nume}}</span>
+              </h1>
+              <h2>
+                Pret:
+                <div>{{prod.pret}}</div>
+              </h2>
+              <h2>
+                Despre:
+              </h2>
+              
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum modi
+                vitae facere atque reiciendis consequuntur corrupti magnam
+                officiis quos nobis!
+              </p>
+              
+              <div *ngIf="rol !== 'Anonim' ">
+                <button mat-cell  (click) = "addToCart(prod)"> 
+                  <mat-icon>
+                    add_shopping_cart
+                  </mat-icon> </button>
+              </div>
+              
+            </div>
+          </div>
+        
+      </div>
+
+         
+
+

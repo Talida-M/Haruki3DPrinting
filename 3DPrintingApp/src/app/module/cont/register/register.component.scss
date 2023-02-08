@@ -1,0 +1,41 @@
+
+  
+  p, h1{
+    font-size: 22px;
+    color: white;
+  }
+  .banner {
+    margin-top: 10%;
+    background-color: #43024b;
+    width: 70vw;
+    margin: auto;
+    box-shadow: 1px 1px 5px rgb(84, 82, 82), -1px -1px 5px rgb(84, 82, 82);
+    border-radius: 4px;
+  }
+  
+  .header {
+    display: grid;
+    place-items: center;
+    padding: 2% 0px;
+  }
+  
+  .login-link {
+    cursor: pointer;
+  }
+  
+  .form-fields {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+    > * {
+      margin: 2% 6%;
+      width: 75%;
+    }
+  }
+  .mat-form-field-infix{
+    width: 380px !important;
+  }
+  .cdk-text-field-autofill-monitored:not(:-webkit-autofill) {
+    animation: cdk-text-field-autofill-end 0s 1ms;
+    color: white;
+}
