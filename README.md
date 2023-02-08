@@ -27,7 +27,6 @@ Cerinte:
  ![guard](https://user-images.githubusercontent.com/75331740/217665663-2bf47395-8612-43b8-9a4c-1d0cf2bda1cf.jpg)
 
  
-</details>
 
 * Sa fie cel putin o pagina cu un form (login/register)
 form login
