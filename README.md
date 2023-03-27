@@ -1,4 +1,5 @@
-# Haruki3DPrinting
+# Haruki3DPrinting  
+-Proiect Frontend Avansat, Anul III Sem I, Creat cu Angular
 
 # Demo Aici:https://youtu.be/yUoUt5HrOeQ
 
