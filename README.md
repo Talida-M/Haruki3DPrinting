@@ -1,4 +1,4 @@
-# Haruka3DPrinting
+# Haruki3DPrinting
 
 # Demo Aici:https://youtu.be/yUoUt5HrOeQ
 
